@@ -20,8 +20,8 @@ export function meta({}: Route.MetaArgs) {
 
 const ContactCom = () => {
   return (
-    <div className="flex justify-center mt-20">
-      <Card className=" w-[450px]">
+    <div className="flex flex-col sm:flex-row justify-center mt-20">
+      <Card className="w-[350px] sm:w-[450px] max-sm:m-auto">
         <CardHeader>
           <CardTitle>Interested?</CardTitle>
           <CardDescription>
@@ -52,7 +52,7 @@ const ContactCom = () => {
           </Button>
         </CardFooter>
       </Card>
-      <Card className="border-none shadow-none w-[450px]">
+      <Card className="border-none shadow-none w-[350px] sm:w-[450px] max-sm:m-auto">
         <CardHeader>
           <CardTitle>Offce Address</CardTitle>
           <CardDescription>Visit our office.</CardDescription>

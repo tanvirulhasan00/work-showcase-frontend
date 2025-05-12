@@ -9,8 +9,8 @@ const Feature = () => {
       >
         Features
       </h1>
-      <div className="flex gap-5 mt-10">
-        <div className="flex flex-col items-center justify-center w-[70rem]">
+      <div className="flex flex-col sm:flex-row gap-5 mt-10">
+        <div className="flex flex-col items-center justify-center w-[22rem] sm:w-[70rem]">
           <div className="text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 dark:text-gray-200  sm:text-7xl">
               Checkout Page
@@ -20,12 +20,12 @@ const Feature = () => {
             </p>
           </div>
         </div>
-        <div className="w-[70rem] rounded-lg">
+        <div className="w-[22rem] sm:w-[70rem] rounded-lg">
           <img src="/checkout.png" className="w-full rounded-lg" />
         </div>
       </div>
-      <div className="flex flex-row-reverse gap-5 ">
-        <div className="flex flex-col items-center justify-center w-[70rem]">
+      <div className="flex flex-col sm:flex-row-reverse gap-5 mt-5 sm:mt-0 ">
+        <div className="flex flex-col items-center justify-center w-[22rem] sm:w-[70rem]">
           <div className="text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 dark:text-gray-200  sm:text-7xl">
               Login
@@ -35,12 +35,12 @@ const Feature = () => {
             </p>
           </div>
         </div>
-        <div className="w-[70rem] rounded-lg">
+        <div className="w-[22rem] sm:w-[70rem] rounded-lg">
           <img src="/login.png" className="w-full rounded-lg" />
         </div>
       </div>
-      <div className="flex gap-5 ">
-        <div className="flex flex-col items-center justify-center w-[70rem]">
+      <div className="flex flex-col sm:flex-row gap-5 mt-5 sm:mt-0">
+        <div className="flex flex-col items-center justify-center w-[22rem] sm:w-[70rem]">
           <div className="text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 dark:text-gray-200  sm:text-7xl">
               Add Products
@@ -50,12 +50,12 @@ const Feature = () => {
             </p>
           </div>
         </div>
-        <div className="w-[70rem] rounded-lg">
+        <div className="w-[22rem] sm:w-[70rem] rounded-lg">
           <img src="/add.png" className="w-full rounded-lg" />
         </div>
       </div>
-      <div className="flex flex-row-reverse gap-5 ">
-        <div className="flex flex-col items-center justify-center w-[70rem]">
+      <div className="flex flex-col sm:flex-row-reverse gap-5 mt-5 sm:mt-0">
+        <div className="flex flex-col items-center justify-center w-[22rem] sm:w-[70rem]">
           <div className="text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 dark:text-gray-200  sm:text-7xl">
               Manage Orders
@@ -66,7 +66,7 @@ const Feature = () => {
             </p>
           </div>
         </div>
-        <div className="w-[70rem] rounded-lg">
+        <div className="w-[22rem] sm:w-[70rem] rounded-lg">
           <img src="/order.png" className="w-full rounded-lg" />
         </div>
       </div>
